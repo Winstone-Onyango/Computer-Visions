@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt  # For plotting images using matplotlib.
 
 # Load a sample image from disk.
 # Replace 'sample.jpg' with the path to an actual image file.
-image = cv2.imread('sample.jpg')
+image = cv2.imread('sample.jpg') 
 # imread loads the image in BGR (Blue, Green, Red) format.
 
 # Check if the image was correctly loaded.
