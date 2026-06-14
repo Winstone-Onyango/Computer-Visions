@@ -9,14 +9,14 @@ image = cv2.imread('sample.jpg')
 
 # Check if the image was correctly loaded.
 if image is None:
-    print("Error: Unable to load image file.") 
+    print("Error: Unable to load image file.")  
 else:
     # Convert image to grayscale.
-    gray_image = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY) 
+    gray_image = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)  
     # cvtColor converts the image from BGR to Grayscale.
 
     # Apply Canny edge detection.
-    edges = cv2.Canny(gray_image, threshold1=100, threshold2=200)
+    edges = cv2.Canny(gray_image, threshold1=100, threshold2=200) 
     # Canny detects edges by finding areas of strong intensity gradients.
 
     # Display the original and edge-detected images side by side.
