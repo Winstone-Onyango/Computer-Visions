@@ -1,4 +1,4 @@
-# Import necessary libraries:
+# Import necessary libraries: 
 import cv2          # OpenCV library for computer vision.
 import matplotlib.pyplot as plt  # For plotting images using matplotlib.
 
@@ -9,7 +9,7 @@ image = cv2.imread('sample.jpg')
 
 # Check if the image was correctly loaded.
 if image is None:
-    print("Error: Unable to load image file.")  
+    print("Error: Unable to load image file.")   
 else:
     # Convert image to grayscale.
     gray_image = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)  
