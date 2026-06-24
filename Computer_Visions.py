@@ -12,7 +12,7 @@ if image is None:
     print("Error: Unable to load image file.")   
 else:
     # Convert image to grayscale.
-    gray_image = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)  
+    gray_image = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY) 
     # cvtColor converts the image from BGR to Grayscale.
 
     # Apply Canny edge detection.
@@ -29,6 +29,6 @@ else:
     plt.subplot(1, 2, 2)
     plt.imshow(edges, cmap='gray')
     plt.title('Edge Detection')
-    plt.axis('off')
+    plt.axis('off') 
 
     plt.show()
